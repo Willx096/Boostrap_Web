@@ -1,0 +1,105 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: 0;
+}
+@media only screen and (max-width: 500px) {
+ 
+}
+
+h6{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  transition: transform .2s; /* Animation */
+}
+h2:hover{
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 5px;
+  }
+  
+  .button{
+      padding: 10px;
+      margin-right: 10px;
+          
+  }
+  .navbar{
+    position: fixed;
+  }  
+ .container{
+    display: flex;
+    
+    
+  }
+  
+  
+  /* article img{
+    display: block;
+    margin: 20px;
+    border-radius: 5px;    
+    
+    
+  } */
+  
+  .card{
+    margin-top: 10px;
+    margin-left: 5px;
+    
+  }
+.form-group{
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+#SignIn{
+  display: flex;
+  align-items: center;
+
+}
+.search{
+  margin: 5px;
+}
+/* label, input{
+  align-items: center;
+} */
+footer{
+    margin-top: 10px;
+}
+hr{
+  width:50%; 
+  margin-left:25% !important; 
+  margin-right:25% !important;
+}
+div.item img{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: transform .2s; /* Animation */
+  
+}
+div.item img:hover{
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+div.item h6{
+  color: black;
+}
+.logo{
+  width: 25px;
+}
+.logo2{
+  margin-left: 5px;
+  
+}
